@@ -65,7 +65,7 @@ const Contact = () => {
             <div className="flex flex-col gap-[3px]">
               <div className="flex flex-row gap-[10px] items-center">
                 <img
-                  src="../src/assets/ico-location.svg"
+                  src="/src/assets/ico-location.svg"
                   alt="icon"
                   width="12px"
                   height="12px"
@@ -76,7 +76,7 @@ const Contact = () => {
               </div>
               <div className="flex flex-row gap-[10px] items-center">
                 <img
-                  src="../src/assets/ico-phone.svg"
+                  src="/src/assets/ico-phone.svg"
                   alt="icon"
                   width="12px"
                   height="12px"
@@ -87,7 +87,7 @@ const Contact = () => {
               </div>
               <div className="flex flex-row gap-[10px] items-center">
                 <img
-                  src="../src/assets/ico-mail.svg"
+                  src="/src/assets/ico-mail.svg"
                   alt="icon"
                   width="12px"
                   height="12px"
