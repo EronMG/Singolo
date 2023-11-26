@@ -29,7 +29,19 @@ const service = [{
         title: "Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.",
     },
 ]
-
+export const linksfooter = [{
+    name: "facebook",
+    icon: "../src/assets/ico-facebook.svg",
+}, {
+    name: "google+",
+    icon: "../src/assets/ico-google-plus.svg",
+}, {
+    name: "twitter",
+    icon: "../src/assets/ico-twitter.svg",
+}, {
+    name: "linkedin",
+    icon: "../src/assets/ico-linkedin.svg"
+}];
 export const links = [{
         id: 1,
         name: "HOME",

@@ -16,8 +16,8 @@ const Header = () => {
           {links.map((nav, index) => (
             <li
               key={index}
-              className={`font-poppins font-normal cursor-pointer text-[16px] text-white  ${
-                nav.id == 1 ? "text-[orange]" : "text-white"
+              className={`font-poppins font-normal cursor-pointer text-[16px]   ${
+                nav.id == 1 ? "text-[#F06C64]" : "text-white"
               } max-w-[100px]`}
             >
               <a href={`${nav.link}`}>{nav.name}</a>
@@ -46,9 +46,7 @@ const Header = () => {
                   key={nav.id}
                   className={`font-poppins font-normal cursor-pointer text-[16px] ${
                     index === links.length - 1 ? `mr-0` : `mb-4`
-                  } text-white mr-10 ${
-                    nav.id == 1 ? "text-orange" : "text-white"
-                  }`}
+                  } mr-10 ${nav.id == 1 ? "text-[#F06C64]" : "text-white"}`}
                 >
                   <a href={`${nav.link}`}>{nav.name}</a>
                 </li>
